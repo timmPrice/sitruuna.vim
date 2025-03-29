@@ -17,7 +17,7 @@ let s:col.preproc    = ['#a29bfe', 147]
 let s:col.function   = ['#a3db81', 117]
 let s:col.foreground = ['#FFFFFF', 188]
 let s:col.fg_alt     = ['#a1a1a1', 145]
-let s:col.statusline = ['#34373a', 137]
+let s:col.statusline = ['#34375a', 137]
 let s:col.darker     = ['#131515', 232]
 let s:col.background = ['#000000', 233]
 let s:col.light_bg   = ['#000000', 236]
@@ -106,7 +106,7 @@ call s:HL('Cursor',          'none',       'foreground')
 call s:HL('CursorColumn',    'none',       'light_bg')
 call s:HL('CursorLineNr',    'special',    'light_bg')
 call s:HL('CursorLine',      'none',       'light_bg',   'none')
-call s:HL('StatusLine',      'statusline', 'foreground')
+call s:HL('StatusLine',      'foreground', 'background')
 call s:HL('StatusLineNC',    'light_bg',     'comment')
 call s:HL('Visual',          'none',       'selection')
 call s:HL('VisualNOS',       'foreground', 'background')
